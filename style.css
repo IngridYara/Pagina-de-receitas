@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+html, body{
+
+    margin:0;
+    padding: 0;
+}
+
+body{
+
+    background-color: hsl(30, 54%, 90%);
+    height: 100vh;
+    
+}
+
+main{
+
+    background-color: white;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 47vw;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
+main img{
+
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+main h1{
+
+    font-size: 34px;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    margin: 30px 0px 0px 0px;
+}
+
+main div#tempo{
+
+    background-color:hsl(330, 100%, 98%);
+    border-radius: 10px;
+    padding: 10px 0px 10px 20px;
+    flex: 1 1 550px;
+}
+
+main div#tempo h3{
+
+    color: hsl(332, 51%, 32%);
+    font-family: "Outifit", sans-serif;
+
+}
+
+div#tempo > ul > li{
+
+    line-height: 30px;
+    font-family: "Outifit", sans-serif;
+    color:hsl(24, 5%, 18%);
+    padding-bottom: 5px;
+}
+
+main p{
+
+    color:hsl(24, 5%, 18%);
+    font-size: 16px;
+    line-height: 25px;
+    font-family: "Outifit", sans-serif;
+}
+
+main h2{
+
+    color:hsl(14, 45%, 36%);
+    font-size: 30px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+}
+
+main > ul > li{
+
+    padding: 10px;
+    font-family: "Outifit", sans-serif;
+    color:hsl(24, 5%, 18%);
+}
+
+main hr{
+
+    width: 640px;
+    
+}
+
+main ol{
+
+    list-style: none;
+    counter-reset: li;
+}
+
+main > ol > li{
+
+    line-height: 25px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-family: "Outifit", sans-serif;
+    color:hsl(24, 5%, 18%);
+    counter-increment:li;
+}
+
+main > ol > li::before{
+
+    content: counter(li) '.';
+    color: hsl(14, 45%, 36%);
+    font-weight: bolder;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    margin-right:10px ;
+}
+
+main span.negrito{
+
+    font-weight: 600;
+}
+
+main > table{
+
+    border-collapse: collapse;
+    display: flex;
+    width: 100%;
+    
+}
+
+main > table > tbody{
+
+    width: 100%;
+}
+
+main > table > tbody > tr{
+
+    display: flex;
+    padding-bottom: 5px;
+}
+
+main table td{
+
+    font-family: "Outifit", sans-serif;
+    color:hsl(24, 5%, 18%);
+    border-bottom: 1px rgb(210, 210, 210) solid;
+    padding: 10px 0px 10px 35px;
+    margin: 0px;
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+}
+
+main table td#semBorda{
+
+    border: none;
+}
+
+main table span.negrito2{
+
+    font-weight: bold;
+    color: hsl(14, 45%, 36%);
+    position: absolute;
+    left: 700px;
+   
+}
+
